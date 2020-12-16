@@ -19,7 +19,7 @@ var controller_email =
 			}
 		});
 
-		ejs.renderFile('../backend/views/Email.ejs', { params }, function (err, data) 
+		ejs.renderFile('./views/Email.ejs', { params }, function (err, data) 
 		{
 			if (err) 
 			{
